@@ -1,0 +1,200 @@
+[
+  {
+    "id": "BK001",
+    "title": "Giáo trình Lập trình Python cơ bản",
+    "author": "Nguyễn Văn An",
+    "isbn": "978-604-0-12345-6",
+    "callNumber": "QA76.73.P98 N456",
+    "category": "Lập trình",
+    "status": "available",
+    "location": "Kệ A2 - Tầng 1",
+    "keywords": ["python", "lap trinh", "co ban", "ngon ngu lap trinh"]
+  },
+  {
+    "id": "BK002",
+    "title": "Lập trình Java từ cơ bản đến nâng cao",
+    "author": "Trần Minh Tuấn",
+    "isbn": "978-604-0-23456-7",
+    "callNumber": "QA76.73.J38 T789",
+    "category": "Lập trình",
+    "status": "available",
+    "location": "Kệ A2 - Tầng 1",
+    "keywords": ["java", "oop", "lap trinh huong doi tuong"]
+  },
+  {
+    "id": "BK003",
+    "title": "Cấu trúc dữ liệu và Giải thuật",
+    "author": "Lê Hoàng Nam",
+    "isbn": "978-604-0-34567-8",
+    "callNumber": "QA76.9.A43 L456",
+    "category": "Khoa học máy tính",
+    "status": "borrowed",
+    "location": "Kệ A3 - Tầng 1",
+    "keywords": ["cau truc du lieu", "giai thuat", "algorithm", "dsa"]
+  },
+  {
+    "id": "BK004",
+    "title": "Mạng máy tính và Truyền thông dữ liệu",
+    "author": "Phạm Quốc Bảo",
+    "isbn": "978-604-0-45678-9",
+    "callNumber": "TK5105.5 P567",
+    "category": "Mạng máy tính",
+    "status": "available",
+    "location": "Kệ B1 - Tầng 2",
+    "keywords": ["mang may tinh", "network", "tcp ip", "truyen thong"]
+  },
+  {
+    "id": "BK005",
+    "title": "Cơ sở dữ liệu - Hệ thống quản trị Oracle",
+    "author": "Võ Thị Hương",
+    "isbn": "978-604-0-56789-0",
+    "callNumber": "QA76.9.D3 V678",
+    "category": "Cơ sở dữ liệu",
+    "status": "available",
+    "location": "Kệ B2 - Tầng 2",
+    "keywords": ["co so du lieu", "database", "oracle", "sql"]
+  },
+  {
+    "id": "BK006",
+    "title": "Trí tuệ nhân tạo và Machine Learning",
+    "author": "Hoàng Đức Thắng",
+    "isbn": "978-604-0-67890-1",
+    "callNumber": "Q335 H678",
+    "category": "Trí tuệ nhân tạo",
+    "status": "borrowed",
+    "location": "Kệ C1 - Tầng 2",
+    "keywords": ["ai", "machine learning", "tri tue nhan tao", "deep learning"]
+  },
+  {
+    "id": "BK007",
+    "title": "Phát triển ứng dụng Web với Node.js",
+    "author": "Đặng Văn Phúc",
+    "isbn": "978-604-0-78901-2",
+    "callNumber": "TK5105.8885 D234",
+    "category": "Lập trình Web",
+    "status": "available",
+    "location": "Kệ A2 - Tầng 1",
+    "keywords": ["nodejs", "web", "javascript", "express"]
+  },
+  {
+    "id": "BK008",
+    "title": "Giáo trình Toán rời rạc cho CNTT",
+    "author": "Nguyễn Thị Lan",
+    "isbn": "978-604-0-89012-3",
+    "callNumber": "QA39.3 N567",
+    "category": "Toán học",
+    "status": "available",
+    "location": "Kệ D1 - Tầng 1",
+    "keywords": ["toan roi rac", "discrete math", "logic", "do thi"]
+  },
+  {
+    "id": "BK009",
+    "title": "Giáo trình Tiếng Anh chuyên ngành CNTT",
+    "author": "Trương Minh Châu",
+    "isbn": "978-604-0-90123-4",
+    "callNumber": "PE1128 T789",
+    "category": "Tiếng Anh",
+    "status": "available",
+    "location": "Kệ E1 - Tầng 1",
+    "keywords": ["tieng anh", "english", "it english", "chuyen nganh"]
+  },
+  {
+    "id": "BK010",
+    "title": "An toàn thông tin và Mật mã học",
+    "author": "Bùi Văn Khánh",
+    "isbn": "978-604-0-01234-5",
+    "callNumber": "QA76.9.A25 B456",
+    "category": "An toàn thông tin",
+    "status": "available",
+    "location": "Kệ C2 - Tầng 2",
+    "keywords": ["an toan thong tin", "security", "mat ma", "cryptography"]
+  },
+  {
+    "id": "BK011",
+    "title": "Hệ điều hành - Nguyên lý và Thực hành",
+    "author": "Lý Quang Huy",
+    "isbn": "978-604-0-12340-1",
+    "callNumber": "QA76.76.O63 L789",
+    "category": "Hệ điều hành",
+    "status": "borrowed",
+    "location": "Kệ B3 - Tầng 2",
+    "keywords": ["he dieu hanh", "operating system", "linux", "windows"]
+  },
+  {
+    "id": "BK012",
+    "title": "Clean Code - Mã sạch và Nghệ thuật phần mềm",
+    "author": "Robert C. Martin",
+    "isbn": "978-013-235088-4",
+    "callNumber": "QA76.76.D47 M378",
+    "category": "Kỹ thuật phần mềm",
+    "status": "available",
+    "location": "Kệ A4 - Tầng 1",
+    "keywords": ["clean code", "ma sach", "software craft", "refactoring"]
+  },
+  {
+    "id": "BK013",
+    "title": "Luận văn: Ứng dụng Chatbot AI trong thư viện số",
+    "author": "Nguyễn Văn Sinh",
+    "isbn": "LV-2024-UIT-013",
+    "callNumber": "Z675.L86 N678",
+    "category": "Luận văn",
+    "status": "available",
+    "location": "Kho luận văn - Tầng 1 (chỉ đọc tại chỗ)",
+    "keywords": ["luan van", "chatbot", "ai", "thu vien so"]
+  },
+  {
+    "id": "BK014",
+    "title": "Thiết kế và Phân tích thuật toán",
+    "author": "Thomas H. Cormen",
+    "isbn": "978-026-203384-8",
+    "callNumber": "QA76.9.A43 C678",
+    "category": "Khoa học máy tính",
+    "status": "available",
+    "location": "Kệ A3 - Tầng 1",
+    "keywords": ["thuat toan", "algorithm", "clrs", "phan tich"]
+  },
+  {
+    "id": "BK015",
+    "title": "Lập trình Android với Kotlin",
+    "author": "Phan Thị Mai",
+    "isbn": "978-604-0-23450-8",
+    "callNumber": "QA76.76.A65 P456",
+    "category": "Lập trình di động",
+    "status": "available",
+    "location": "Kệ A2 - Tầng 1",
+    "keywords": ["android", "kotlin", "mobile", "lap trinh di dong"]
+  },
+  {
+    "id": "BK016",
+    "title": "DevOps - Tích hợp và Triển khai liên tục",
+    "author": "Ngô Văn Đạt",
+    "isbn": "978-604-0-34561-9",
+    "callNumber": "QA76.76.D47 N567",
+    "category": "Kỹ thuật phần mềm",
+    "status": "borrowed",
+    "location": "Kệ B4 - Tầng 2",
+    "keywords": ["devops", "ci cd", "docker", "kubernetes"]
+  },
+  {
+    "id": "BK017",
+    "title": "Giáo trình Xác suất thống kê",
+    "author": "Trần Văn Bình",
+    "isbn": "978-604-0-45672-0",
+    "callNumber": "QA273 T789",
+    "category": "Toán học",
+    "status": "available",
+    "location": "Kệ D1 - Tầng 1",
+    "keywords": ["xac suat", "thong ke", "probability", "statistics"]
+  },
+  {
+    "id": "BK018",
+    "title": "Internet of Things - Từ lý thuyết đến thực hành",
+    "author": "Đinh Quốc Việt",
+    "isbn": "978-604-0-56783-1",
+    "callNumber": "TK7872.D48 D456",
+    "category": "IoT",
+    "status": "available",
+    "location": "Kệ C3 - Tầng 2",
+    "keywords": ["iot", "internet of things", "nhung", "cam bien"]
+  }
+]

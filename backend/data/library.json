@@ -1,0 +1,60 @@
+{
+  "name": "Thư viện Trường Đại học Công nghệ Thông tin - ĐHQG-HCM",
+  "shortName": "Thư viện UIT",
+  "address": "Khu phố 6, Phường Linh Trung, TP. Thủ Đức, TP. Hồ Chí Minh",
+  "phone": "(028) 37251993",
+  "email": "thuvien@uit.edu.vn",
+  "website": "https://thuvien.uit.edu.vn",
+  "facebook": "https://www.facebook.com/thuvien.uit",
+  "openingHours": {
+    "weekdays": "7:30 - 20:30 (Thứ 2 - Thứ 6)",
+    "saturday": "7:30 - 17:00",
+    "sunday": "Nghỉ"
+  },
+  "functions": [
+    "Quản lý, lưu trữ và cung cấp tài liệu phục vụ học tập, nghiên cứu",
+    "Hỗ trợ sinh viên, giảng viên tra cứu và khai thác nguồn tài nguyên tri thức",
+    "Tổ chức các hoạt động hướng dẫn khai thác thư viện số và thư viện mở",
+    "Phát triển dịch vụ thư viện hiện đại, thân thiện với người dùng"
+  ],
+  "services": [
+    "Mượn/trả sách giấy tại quầy và qua tủ sách tự phục vụ",
+    "Truy cập cơ sở dữ liệu điện tử, e-book, luận văn trực tuyến",
+    "Phòng đọc tài liệu và phòng tự học",
+    "Photocopy, in ấn tài liệu học tập",
+    "Hướng dẫn tra cứu OPAC (Online Public Access Catalog)",
+    "Dịch vụ Interlibrary Loan (mượn liên thư viện)"
+  ],
+  "guides": {
+    "lamThe": {
+      "title": "Làm thẻ thư viện",
+      "steps": [
+        "Sinh viên/chuyên viên mang thẻ sinh viên/nhân viên đến quầy Thủ tục (tầng trệt).",
+        "Điền Phiếu đăng ký thẻ thư viện (có sẵn tại quầy hoặc tải trên website).",
+        "Chụp ảnh thẻ và kích hoạt tài khoản OPAC trong vòng 15 phút.",
+        "Thẻ thư viện điện tử được gắn với mã sinh viên, dùng để mượn sách và tra cứu online."
+      ],
+      "note": "Giảng viên, nghiên cứu sinh làm thẻ bổ sung giấy giới thiệu của đơn vị."
+    },
+    "muonTra": {
+      "title": "Mượn/Trả tài liệu",
+      "steps": [
+        "Tra cứu sách trên OPAC hoặc hỏi chatbot/librarian để lấy mã kho (call number).",
+        "Lên kho sách lấy tài liệu, mang đến quầy Circulation kèm thẻ thư viện.",
+        "Nhân viên quét mượn — sinh viên được mượn tối đa 5 cuốn, thời hạn 14 ngày, gia hạn online 1 lần (+7 ngày).",
+        "Trả sách tại quầy hoặc thùng trả sách 24/7 ở cửa chính. Quá hạn phạt 3.000đ/ngày/cuốn."
+      ],
+      "note": "Sách tham khảo, luận văn chỉ đọc tại chỗ, không cho mượn về nhà."
+    },
+    "traCuu": {
+      "title": "Tra cứu tài liệu",
+      "steps": [
+        "Truy cập OPAC tại thuvien.uit.edu.vn hoặc dùng máy tra cứu tại thư viện.",
+        "Tìm theo: tên sách, tác giả, ISBN, từ khóa, hoặc lĩnh vực (subject).",
+        "Xem trạng thái: Còn sách / Đang mượn / Đặt trước được.",
+        "Với tài liệu số: đăng nhập bằng tài khoản thư viện để đọc full-text hoặc tải về (nếu được phép)."
+      ],
+      "note": "Cần hỗ trợ tra cứu nâng cao, liên hệ quầy Reference (tầng 1)."
+    }
+  }
+}

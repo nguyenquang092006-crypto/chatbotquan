@@ -1,0 +1,51 @@
+Chủ đề: Thiết kế chatbot thư viện
+Yêu cầu chung:
+- Mỗi sinh viên xây dựng 01 chatbot thư viện đơn giản bằng phần mềm miễn phí (khuyến khích sử dụng BotStar, Landbot hoặc nền tảng tương tự).
+- Chatbot phải mô phỏng hoạt động hỗ trợ người dùng trong môi trường thư viện đại học hoặc thư viện công cộng.
+- Sinh viên được phép sử dụng: nền tảng chatbot miễn phí; AI hỗ trợ tạo nội dung; tài liệu tham khảo trên Internet.
+- Không được sao chép hoàn toàn sản phẩm của người khác.
+Nội dung bắt buộc của chatbot:
+1. Giới thiệu thư viện
++ tên thư viện;
++ chức năng, nhiệm vụ;
++ các dịch vụ cơ bản.
+2. Hướng dẫn người dùng
+Bao gồm ít nhất 03 nội dung:
++ làm thẻ thư viện;
++ mượn/trả tài liệu;
++ tra cứu tài liệu;
+3. Hỏi đáp tự động (FAQ)
+Chatbot phải trả lời được tối thiểu 10 câu hỏi thường gặp.
+4. Giao diện
++ rõ ràng;
++ dễ sử dụng;
++ có hình ảnh/logo (nếu có).
+Sinh viên nộp:
+1. Link chatbot hoạt động;
+2. File mô tả ngắn (1 -2  trang) gồm:
+  - tên chatbot;
+  - mục đích sử dụng;
+  - nền tảng sử dụng;
+  - các chức năng chính;
+  - khó khăn khi thực hiện;
+3. Ảnh chụp màn hình chatbot.
+4. Thời gian nộp: trước ngày 25/5/2026
+Tiêu chí đánh giá
+1. Đầy đủ chức năng theo yêu cầu – 3 điểm
+2. Nội dung thông tin chính xác, phù hợp nghiệp vụ thư viện – 2 điểm
+3. Thiết kế hội thoại hợp lý, dễ sử dụng – 2 điểm
+4. Tính sáng tạo và khả năng ứng dụng thực tế – 1.5 điểm
+5. Giao diện, hình thức trình bày – 1 điểm
+6. Báo cáo mô tả sản phẩm – 0.5 điểm
+ 
+Tổng: 10 điểm
+Điểm khuyến khích
+Cộng tối đa 1 điểm nếu chatbot có thêm:
+- tích hợp AI;
+- hỗ trợ tìm kiếm tài liệu;
+- kết nối website hoặc Facebook.
+Lưu ý
+- Khuyến khích lựa chọn chủ đề gần với 1 thư viện cụ thể ở Việt Nam
+- Sinh viên cần tự thiết kế nội dung hội thoại.
+- Ưu tiên các chatbot có khả năng hỗ trợ người dùng thực tế.
+- Giảng viên có thể kiểm tra trực tiếp khả năng hoạt động của chatbot khi chấm thi

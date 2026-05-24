@@ -1,0 +1,76 @@
+DANH SÁCH 50 CÂU HỎI MẪU - CHATBOT THƯ VIỆN UIT
+================================================
+(Dùng để test chatbot, demo hoặc chụp ảnh màn hình nộp bài)
+
+--- GIỚI THIỆU THƯ VIỆN (5 câu) ---
+1. Thư viện UIT là gì?
+2. Giới thiệu về thư viện Trường ĐH CNTT giúp mình với.
+3. Thư viện UIT có những chức năng gì?
+4. Thư viện cung cấp những dịch vụ nào cho sinh viên?
+5. Địa chỉ thư viện UIT ở đâu?
+
+--- LÀM THẺ THƯ VIỆN (5 câu) ---
+6. Làm thẻ thư viện như thế nào?
+7. Sinh viên mới vào trường cần làm gì để mượn sách?
+8. Làm thẻ thư viện cần mang giấy tờ gì?
+9. Mất thẻ thư viện phải làm sao?
+10. Giảng viên làm thẻ thư viện có khác sinh viên không?
+
+--- MƯỢN / TRẢ SÁCH (8 câu) ---
+11. Quy trình mượn sách ở thư viện UIT ra sao?
+12. Sinh viên được mượn tối đa bao nhiêu cuốn sách?
+13. Thời hạn mượn sách là bao lâu?
+14. Mượn quá hạn bị phạt bao nhiêu tiền?
+15. Làm sao gia hạn sách online?
+16. Trả sách ở đâu? Có trả ngoài giờ không?
+17. Sách tham khảo có được mượn về nhà không?
+18. Luận văn tốt nghiệp có cho mượn về không?
+
+--- TRA CỨU / TÌM SÁCH (10 câu) ---
+19. Tìm sach python
+20. tra cuu sach java
+21. search machine learning
+22. Tìm sách lập trình web Node.js
+23. Có sách Clean Code không?
+24. Tra cứu sách theo tác giả Robert C. Martin
+25. Làm sao tra cứu tài liệu trên OPAC?
+26. Tìm luận văn về chatbot AI
+27. Có sách tiếng Anh chuyên ngành CNTT không?
+28. Tìm sách về an toàn thông tin
+
+--- GIỜ MỞ CỬA & TIỆN ÍCH (7 câu) ---
+29. Thư viện mở cửa lúc mấy giờ?
+30. Chủ nhật thư viện có mở không?
+31. Thư viện có wifi không?
+32. Thư viện có dịch vụ photocopy/in không?
+33. Có phòng đọc hoặc phòng tự học không?
+34. Thư viện có phòng học nhóm không?
+35. Photocopy giá bao nhiêu một trang?
+
+--- TÀI LIỆU SỐ & DỊCH VỤ KHÁC (5 câu) ---
+36. Làm sao đọc sách điện tử?
+37. Tra cứu luận văn, đồ án ở đâu?
+38. Thư viện có cơ sở dữ liệu IEEE, Springer không?
+39. Dịch vụ mượn liên thư viện là gì?
+40. Đặt phòng học nhóm như thế nào?
+
+--- LIÊN HỆ & HỖ TRỢ (5 câu) ---
+41. Liên hệ thư viện bằng cách nào?
+42. Email thư viện UIT là gì?
+43. Số điện thoại quầy thư viện?
+44. Quầy Reference hỗ trợ lúc mấy giờ?
+45. Fanpage Facebook thư viện UIT ở đâu?
+
+--- CÂU HỎI TỰ NHIÊN / AI (5 câu) ---
+46. Mình là sinh viên năm 1, nên bắt đầu khai thác thư viện thế nào?
+47. Thư viện UIT có phù hợp cho người học lập trình không?
+48. Nếu nợ phạt quá hạn thì tài khoản có bị khóa không?
+49. Sách đang mượn có người đặt trước thì gia hạn được không?
+50. Cho mình lịch làm việc và hướng dẫn mượn sách tóm tắt nhé.
+
+================================================
+Gợi ý test nhanh:
+- Câu 19-28: test tính năng TÌM SÁCH (OPAC)
+- Câu 29-35: test FAQ tự động
+- Câu 46-50: test AI (gpt-4o-mini)
+- Câu 1-5, 6-10: test menu / hướng dẫn nhanh

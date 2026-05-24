@@ -1,0 +1,62 @@
+[
+  {
+    "keywords": ["giờ mở cửa", "mở cửa", "giờ làm việc", "thời gian", "nghỉ"],
+    "question": "Thư viện mở cửa lúc mấy giờ?",
+    "answer": "Thư viện UIT mở cửa:\n• Thứ 2 - Thứ 6: 7:30 - 20:30\n• Thứ 7: 7:30 - 17:00\n• Chủ nhật: Nghỉ\nGiờ cao điểm (11h-13h) có thể đông, bạn nên đến sớm hoặc dùng dịch vụ online."
+  },
+  {
+    "keywords": ["địa chỉ", "ở đâu", "vị trí", "chỉ đường"],
+    "question": "Thư viện ở đâu?",
+    "answer": "Thư viện UIT nằm tại Khu phố 6, Phường Linh Trung, TP. Thủ Đức, TP. HCM (trong khuôn viên Trường ĐH CNTT). Cổng chính đi thẳng, thư viện ở tòa nhà phía trước sân hình chữ U."
+  },
+  {
+    "keywords": ["mượn bao nhiêu", "giới hạn mượn", "tối đa", "5 cuốn"],
+    "question": "Sinh viên được mượn tối đa bao nhiêu sách?",
+    "answer": "Sinh viên chính quy được mượn tối đa 5 cuốn sách giấy cùng lúc, thời hạn 14 ngày/lần. Có thể gia hạn online 1 lần thêm 7 ngày nếu sách chưa có người đặt trước."
+  },
+  {
+    "keywords": ["phạt", "quá hạn", "trễ hạn", "phí"],
+    "question": "Mượn quá hạn bị phạt bao nhiêu?",
+    "answer": "Phạt quá hạn: 3.000đ/ngày/cuốn. Nếu nợ quá 50.000đ hoặc quá hạn trên 30 ngày, tài khoản sẽ bị khóa mượn cho đến khi thanh toán đủ."
+  },
+  {
+    "keywords": ["wifi", "mạng", "internet"],
+    "question": "Thư viện có wifi không?",
+    "answer": "Có. Wifi miễn phí UIT-Library cho sinh viên (đăng nhập bằng mã sinh viên). Khách có thể xin mã guest tại quầy lễ tân, hiệu lực trong ngày."
+  },
+  {
+    "keywords": ["gia hạn", "renew", "kéo dài"],
+    "question": "Làm sao gia hạn sách online?",
+    "answer": "Đăng nhập OPAC → mục \"Tài khoản của tôi\" → \"Đang mượn\" → chọn \"Gia hạn\". Mỗi cuốn gia hạn được 1 lần (+7 ngày). Không gia hạn được nếu có người đặt trước hoặc bạn nợ phạt."
+  },
+  {
+    "keywords": ["mất thẻ", "làm lại thẻ", "mat the", "cap lai the"],
+    "question": "Mất thẻ thư viện phải làm sao?",
+    "answer": "Báo ngay quầy Thủ tục để khóa thẻ tránh lạm dụng. Làm lại thẻ: mang thẻ sinh viên + 20.000đ phí cấp lại. Thời gian xử lý khoảng 1 ngày làm việc."
+  },
+  {
+    "keywords": ["ebook", "sách điện tử", "tài liệu số", "full text"],
+    "question": "Làm sao đọc sách điện tử?",
+    "answer": "Truy cập thuvien.uit.edu.vn → mục \"Tài nguyên số\" → chọn cơ sở dữ liệu (Springer, IEEE, JSTOR...). Đăng nhập bằng tài khoản thư viện. Một số tài liệu chỉ đọc online, một số cho phép tải PDF."
+  },
+  {
+    "keywords": ["photocopy", "in", "photo"],
+    "question": "Thư viện có dịch vụ photocopy/in không?",
+    "answer": "Có, tại tầng trệt gần quầy Circulation. Photocopy đen trắng: 200đ/trang; in màu: 1.000đ/trang. Thanh toán bằng thẻ sinh viên hoặc tiền mặt tại máy tự phục vụ."
+  },
+  {
+    "keywords": ["phòng đọc", "chỗ ngồi", "tự học", "group study", "học nhóm", "phòng học nhóm", "phong hoc nhom"],
+    "question": "Có phòng đọc hoặc chỗ học nhóm không?",
+    "answer": "Có phòng đọc yên tĩnh (tầng 2-3), phòng tự học cá nhân và phòng học nhóm (tối đa 6 người). Đặt phòng nhóm online trước 24h qua website hoặc app thư viện."
+  },
+  {
+    "keywords": ["luận văn", "đồ án", "kho luận văn"],
+    "question": "Tra cứu luận văn, đồ án ở đâu?",
+    "answer": "Luận văn tốt nghiệp lưu tại Kho luận văn (tầng 1). Tra cứu trên OPAC, lọc \"Luận văn\". Chỉ đọc tại chỗ, không mượn về. Một số luận văn cũ đã số hóa, xem online sau khi đăng nhập."
+  },
+  {
+    "keywords": ["liên hệ", "email", "hotline", "số điện thoại"],
+    "question": "Liên hệ thư viện như thế nào?",
+    "answer": "• Điện thoại: (028) 37251993\n• Email: thuvien@uit.edu.vn\n• Website: thuvien.uit.edu.vn\n• Fanpage: Thư viện UIT\nQuầy Reference hỗ trợ trực tiếp từ 8h-17h các ngày trong tuần."
+  }
+]

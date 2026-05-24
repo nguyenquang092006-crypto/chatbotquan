@@ -23,6 +23,7 @@
   --shadow-sm: 0 2px 12px rgba(255, 107, 0, 0.08);
   --radius: 20px;
   --header-h: 64px;
+  --header-h-mobile: 52px;
 }
 
 html {
@@ -590,6 +591,18 @@ body {
   flex-shrink: 0;
 }
 
+.quick-actions-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  margin: 0 -4px;
+  padding: 0 4px 2px;
+}
+
+.quick-actions-scroll::-webkit-scrollbar {
+  display: none;
+}
+
 .quick-label {
   font-size: 0.68rem;
   font-weight: 600;
@@ -819,10 +832,15 @@ body {
 @media (max-width: 900px) {
   .page-grid {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 16px;
+  }
+
+  .chat-section {
+    order: 1;
   }
 
   .info-panel {
+    order: 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
@@ -833,8 +851,9 @@ body {
   }
 
   .app {
-    height: 65vh;
-    min-height: 480px;
+    height: calc(100dvh - var(--header-h) - 100px);
+    min-height: 520px;
+    max-height: none;
   }
 
   .footer-grid {
@@ -843,47 +862,210 @@ body {
   }
 }
 
-@media (max-width: 600px) {
-  .site-nav {
-    display: flex;
-    gap: 4px;
-    padding: 3px;
+@media (max-width: 768px) {
+  :root {
+    --header-h: var(--header-h-mobile);
   }
 
-  .site-nav-link {
-    padding: 7px 10px;
-    font-size: 0.72rem;
+  body {
+    overflow-x: hidden;
+    padding: 0;
+  }
+
+  .container {
+    padding: 0 12px;
   }
 
   .site-header-inner {
-    height: 56px;
-    flex-wrap: wrap;
+    min-height: var(--header-h-mobile);
+    height: auto;
+    padding: 6px 0;
     gap: 8px;
   }
 
-  .site-logo-sub { display: none; }
-
-  .site-badge {
-    font-size: 0.58rem;
-    padding: 4px 8px;
+  .site-logo img {
+    width: 34px;
+    height: 34px;
   }
 
-  .page-main { padding: 16px 0 24px; }
+  .site-logo-title {
+    font-size: 0.88rem;
+  }
 
+  .site-logo-sub {
+    display: none;
+  }
+
+  .site-nav-link {
+    padding: 7px 12px;
+    font-size: 0.75rem;
+  }
+
+  .site-badge {
+    display: none;
+  }
+
+  .page-main {
+    padding: 8px 0 12px;
+  }
+
+  .page-grid {
+    gap: 0;
+  }
+
+  /* Mobile: ưu tiên chatbot, ẩn panel phụ */
   .info-panel {
-    grid-template-columns: 1fr;
+    display: none;
+  }
+
+  .chat-section {
+    width: 100%;
   }
 
   .app {
-    height: calc(100vh - 56px - 40px);
-    min-height: 420px;
-    border-radius: 16px;
+    height: calc(100dvh - var(--header-h-mobile) - 16px);
+    min-height: unset;
+    max-height: none;
+    border-radius: 14px;
+  }
+
+  .chat-header {
+    padding: 12px 14px;
+  }
+
+  .chat-header h1 {
+    font-size: 0.95rem;
+  }
+
+  .chat-header p {
+    font-size: 0.68rem;
+  }
+
+  .chat-header-logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  .search-bar {
+    padding: 10px 12px;
+    gap: 6px;
+  }
+
+  .search-bar input {
+    font-size: 0.8rem;
+    min-width: 0;
+    padding: 9px 12px;
+  }
+
+  .search-bar button {
+    padding: 9px 12px;
+    font-size: 0.76rem;
+  }
+
+  .chat-messages {
+    padding: 12px;
+  }
+
+  .message {
+    max-width: 92%;
+    font-size: 0.84rem;
+    padding: 10px 14px;
+  }
+
+  .quick-actions {
+    flex-wrap: nowrap;
+    width: max-content;
+    min-width: 100%;
+  }
+
+  .quick-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-size: 0.72rem;
+    padding: 7px 12px;
+  }
+
+  .chat-input {
+    padding: 10px 12px;
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+    gap: 8px;
+  }
+
+  .chat-input input {
+    font-size: 16px; /* tránh zoom iOS */
+    padding: 11px 14px;
+  }
+
+  .chat-input button {
+    width: 42px;
+    height: 42px;
+  }
+
+  .chat-footer-bar {
+    flex-direction: column;
+    gap: 3px;
+    text-align: center;
+    font-size: 0.58rem;
+    padding: 6px 10px;
   }
 
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 28px 20px 24px;
+    padding: 24px 12px 20px;
+  }
+
+  .about-main {
+    padding: 16px 0 24px;
+  }
+
+  .about-hero {
+    border-radius: 16px;
+    margin-bottom: 16px;
+  }
+
+  .about-card {
+    padding: 20px;
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-nav-link {
+    padding: 6px 10px;
+    font-size: 0.72rem;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .search-bar button span {
+    display: none;
+  }
+
+  .search-bar button::after {
+    content: '🔍';
+    font-size: 0.9rem;
+  }
+
+  .app {
+    border-radius: 0;
+    height: calc(100dvh - var(--header-h-mobile));
+  }
+
+  .page-main {
+    padding: 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .chat-section .app {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
   }
 }
 

@@ -28,15 +28,19 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   font-family: 'Be Vietnam Pro', system-ui, sans-serif;
   background: linear-gradient(160deg, #FFF8F2 0%, #FFE8CC 40%, #FFD699 100%);
   min-height: 100vh;
+  min-height: 100dvh;
   color: var(--text);
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .container {
@@ -320,6 +324,7 @@ body {
 /* Chat Section */
 .chat-section {
   animation: fadeInUp 0.6s ease 0.25s both;
+  min-width: 0;
 }
 
 .app {
@@ -330,9 +335,10 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  height: calc(100vh - var(--header-h) - 120px);
+  height: calc(var(--app-height, 100dvh) - var(--header-h) - 120px);
   min-height: 560px;
   max-height: 780px;
+  width: 100%;
 }
 
 /* Chat widget header */
@@ -867,38 +873,118 @@ body {
     --header-h: var(--header-h-mobile);
   }
 
+  html {
+    height: 100%;
+  }
+
+  /* Trang chủ: chat full màn hình, ẩn footer */
+  body.home-page {
+    height: 100%;
+    min-height: 100dvh;
+    overflow: hidden;
+  }
+
+  body.home-page .site-footer {
+    display: none;
+  }
+
+  body.home-page .page-main {
+    flex: 1;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  body.home-page .container.page-grid {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  body.home-page .chat-section {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    width: 100%;
+  }
+
+  body.home-page .app {
+    flex: 1;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+  }
+
+  body.home-page .chat-body {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  body.home-page .chat-messages {
+    flex: 1;
+    min-height: 0;
+  }
+
   body {
-    overflow-x: hidden;
     padding: 0;
   }
 
   .container {
     padding: 0 12px;
+    max-width: 100%;
+  }
+
+  .site-header {
+    flex-shrink: 0;
   }
 
   .site-header-inner {
     min-height: var(--header-h-mobile);
     height: auto;
-    padding: 6px 0;
+    padding: 8px 0;
     gap: 8px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+
+  .site-logo {
+    min-width: 0;
   }
 
   .site-logo img {
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
   }
 
   .site-logo-title {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .site-logo-sub {
     display: none;
   }
 
+  .site-nav {
+    flex-shrink: 0;
+  }
+
   .site-nav-link {
-    padding: 7px 12px;
-    font-size: 0.75rem;
+    padding: 7px 11px;
+    font-size: 0.72rem;
   }
 
   .site-badge {
@@ -910,103 +996,141 @@ body {
   }
 
   .page-grid {
+    display: flex;
+    flex-direction: column;
     gap: 0;
+    width: 100%;
   }
 
-  /* Mobile: ưu tiên chatbot, ẩn panel phụ */
   .info-panel {
-    display: none;
+    display: none !important;
   }
 
   .chat-section {
     width: 100%;
+    min-width: 0;
   }
 
   .app {
-    height: calc(100dvh - var(--header-h-mobile) - 16px);
-    min-height: unset;
+    height: calc(var(--app-height, 100dvh) - var(--header-h-mobile) - 24px);
+    min-height: 400px;
     max-height: none;
-    border-radius: 14px;
+    border-radius: 12px;
+    width: 100%;
   }
 
   .chat-header {
-    padding: 12px 14px;
+    padding: 10px 12px;
+    flex-shrink: 0;
+  }
+
+  .chat-header-info {
+    min-width: 0;
   }
 
   .chat-header h1 {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 
   .chat-header p {
-    font-size: 0.68rem;
+    font-size: 0.65rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .chat-header-logo {
-    width: 36px;
-    height: 36px;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+  }
+
+  .chat-header-actions {
+    flex-shrink: 0;
+  }
+
+  .header-link,
+  .header-btn {
+    width: 30px;
+    height: 30px;
   }
 
   .search-bar {
-    padding: 10px 12px;
+    padding: 8px 10px;
     gap: 6px;
+    flex-shrink: 0;
   }
 
   .search-bar input {
-    font-size: 0.8rem;
+    font-size: 16px;
     min-width: 0;
-    padding: 9px 12px;
+    width: 100%;
+    padding: 9px 10px;
   }
 
   .search-bar button {
     padding: 9px 12px;
-    font-size: 0.76rem;
+    font-size: 0.75rem;
+    flex-shrink: 0;
   }
 
   .chat-messages {
-    padding: 12px;
+    padding: 10px;
+    min-height: 0;
   }
 
   .message {
-    max-width: 92%;
+    max-width: 90%;
     font-size: 0.84rem;
-    padding: 10px 14px;
+    padding: 10px 12px;
+  }
+
+  .quick-actions-wrap {
+    flex-shrink: 0;
+    padding: 0 10px 8px;
   }
 
   .quick-actions {
+    display: flex;
     flex-wrap: nowrap;
-    width: max-content;
-    min-width: 100%;
+    gap: 6px;
+    width: auto;
+    min-width: unset;
   }
 
   .quick-btn {
     flex-shrink: 0;
     white-space: nowrap;
-    font-size: 0.72rem;
-    padding: 7px 12px;
+    font-size: 0.7rem;
+    padding: 6px 10px;
   }
 
   .chat-input {
-    padding: 10px 12px;
-    padding-bottom: max(12px, env(safe-area-inset-bottom));
+    padding: 8px 10px;
+    padding-bottom: max(10px, env(safe-area-inset-bottom));
     gap: 8px;
+    flex-shrink: 0;
   }
 
   .chat-input input {
-    font-size: 16px; /* tránh zoom iOS */
-    padding: 11px 14px;
+    font-size: 16px;
+    padding: 10px 14px;
+    min-width: 0;
   }
 
   .chat-input button {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
   }
 
   .chat-footer-bar {
     flex-direction: column;
-    gap: 3px;
+    gap: 2px;
     text-align: center;
-    font-size: 0.58rem;
-    padding: 6px 10px;
+    font-size: 0.55rem;
+    padding: 5px 8px;
+    flex-shrink: 0;
   }
 
   .footer-grid {
@@ -1028,12 +1152,20 @@ body {
     padding: 20px;
     border-radius: 16px;
   }
+
+  .bg-decoration .orb {
+    opacity: 0.25;
+  }
 }
 
 @media (max-width: 480px) {
+  .site-header-inner {
+    padding: 6px 0;
+  }
+
   .site-nav-link {
-    padding: 6px 10px;
-    font-size: 0.72rem;
+    padding: 6px 9px;
+    font-size: 0.68rem;
   }
 
   .search-icon {
@@ -1046,26 +1178,21 @@ body {
 
   .search-bar button::after {
     content: '🔍';
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
-  .app {
+  body.home-page .app,
+  .chat-section .app {
     border-radius: 0;
-    height: calc(100dvh - var(--header-h-mobile));
   }
 
-  .page-main {
+  body.home-page .container.page-grid,
+  body.home-page .page-main {
     padding: 0;
   }
 
   .container {
-    padding: 0;
-  }
-
-  .chat-section .app {
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
+    padding: 0 8px;
   }
 }
 
